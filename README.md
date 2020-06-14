@@ -1,6 +1,19 @@
+[![NPM Version](http://img.shields.io/badge/npm-6.9.2-brightgreen.svg)]()
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](LICENSE)
+
 # ButterCMSBlog
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
+Angular application with integrated posts from butter CMS. [Demo page on stackblitz](https://stackblitz.com/github/orlyohreally/butterCMSBlog)
+
+### Installing
+
+Clone the project and install dependencies:
+
+```
+git clone https://github.com/orlyohreally/butterCMSBlog.git
+cd butterCMSBlog
+npm install
+```
 
 ## Development server
 
@@ -22,6 +35,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 
-## Further help
+## Built With
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+- [Angular](https://angular.io/) - framework used for frontend
+- [ButterCMS](https://buttercms.com/) - headless CMS
+
+## Authors
+
+- **Orly Knop** - [orlyohreally](https://github.com/orlyohreally)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
