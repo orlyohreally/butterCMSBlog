@@ -38,9 +38,9 @@
               </div>
             </mat-card-content>
             <div *ngIf="post.tags">
-              <h3 class="post__tag" *ngFor="let tag of post.tags">
+              <span class="post__tag" *ngFor="let tag of post.tags">
                 #{{ tag.name }}
-              </h3>
+              </span>
             </div>
           </div>
         </mat-card>
